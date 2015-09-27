@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D2FF2251B659CE2004E07F7 /* nicearrowBACK.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4D2FF2241B659CE2004E07F7 /* nicearrowBACK.gif */; };
+		4D2FF2271B659EF0004E07F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D2FF2261B659EF0004E07F7 /* LaunchScreen.xib */; };
+		4D86E084198197F6009A7C9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D86E083198197F6009A7C9D /* Foundation.framework */; };
+		4D86E086198197F6009A7C9D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D86E085198197F6009A7C9D /* CoreGraphics.framework */; };
+		4D86E088198197F6009A7C9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D86E087198197F6009A7C9D /* UIKit.framework */; };
+		4D86E08E198197F6009A7C9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D86E08C198197F6009A7C9D /* InfoPlist.strings */; };
+		4D86E090198197F6009A7C9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D86E08F198197F6009A7C9D /* main.m */; };
+		4D86E094198197F6009A7C9D /* MEGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D86E093198197F6009A7C9D /* MEGAppDelegate.m */; };
+		4D86E096198197F6009A7C9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D86E095198197F6009A7C9D /* Images.xcassets */; };
+		4D86E09D198197F6009A7C9D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D86E09C198197F6009A7C9D /* XCTest.framework */; };
+		4D86E09E198197F6009A7C9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D86E083198197F6009A7C9D /* Foundation.framework */; };
+		4D86E09F198197F6009A7C9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D86E087198197F6009A7C9D /* UIKit.framework */; };
+		4D86E0A7198197F6009A7C9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D86E0A5198197F6009A7C9D /* InfoPlist.strings */; };
+		4D86E0A9198197F6009A7C9D /* SnapalyzerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D86E0A8198197F6009A7C9D /* SnapalyzerTests.m */; };
+		4D86E0B519819807009A7C9D /* MEGGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D86E0B319819807009A7C9D /* MEGGalleryViewController.m */; };
+		4D86E0B619819807009A7C9D /* MEGGalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D86E0B419819807009A7C9D /* MEGGalleryViewController.xib */; };
+		4D86E0B819819822009A7C9D /* ghost_clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D86E0B719819822009A7C9D /* ghost_clear.png */; };
+		4D86E0BC198198BF009A7C9D /* MEGMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D86E0BA198198BF009A7C9D /* MEGMainViewController.m */; };
+		4D86E0BD198198BF009A7C9D /* MEGMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D86E0BB198198BF009A7C9D /* MEGMainViewController.xib */; };
+		4DDA268019E4B67E00557CAB /* nicearrowNONHIGHLIGHTED.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4DDA267F19E4B67E00557CAB /* nicearrowNONHIGHLIGHTED.gif */; };
+		4DDA268219E4B68500557CAB /* nicearrowHIGHLIGHTED.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4DDA268119E4B68500557CAB /* nicearrowHIGHLIGHTED.gif */; };
+		4DDA269119E9CCB500557CAB /* MEGImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDA268F19E9CCB500557CAB /* MEGImageViewController.m */; };
+		4DDA269219E9CCB500557CAB /* MEGImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DDA269019E9CCB500557CAB /* MEGImageViewController.xib */; };
+		4DDA269519EA575100557CAB /* SnapalyzerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDA269419EA575100557CAB /* SnapalyzerTableViewCell.m */; };
+		4DDA269719EB56C600557CAB /* floppy.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DDA269619EB56C600557CAB /* floppy.png */; };
+		4DDA269919EB56CE00557CAB /* floppyHIGHLIGHTED.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DDA269819EB56CE00557CAB /* floppyHIGHLIGHTED.png */; };
+		4DDA269B19EB56FD00557CAB /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DDA269A19EB56FD00557CAB /* x.png */; };
+		4DDA269D19EB570300557CAB /* xHIGHLIGHTED.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DDA269C19EB570300557CAB /* xHIGHLIGHTED.png */; };
+		4DDA26A119ECB8FA00557CAB /* buttonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DDA26A019ECB8FA00557CAB /* buttonBackground.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D86E0A0198197F6009A7C9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D86E078198197F6009A7C9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D86E07F198197F6009A7C9D;
+			remoteInfo = Snapalyzer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D2FF2241B659CE2004E07F7 /* nicearrowBACK.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = nicearrowBACK.gif; sourceTree = "<group>"; };
+		4D2FF2261B659EF0004E07F7 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		4D86E080198197F6009A7C9D /* Snapalyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapalyzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D86E083198197F6009A7C9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D86E085198197F6009A7C9D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4D86E087198197F6009A7C9D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4D86E08B198197F6009A7C9D /* Snapalyzer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Snapalyzer-Info.plist"; sourceTree = "<group>"; };
+		4D86E08D198197F6009A7C9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D86E08F198197F6009A7C9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D86E091198197F6009A7C9D /* Snapalyzer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Snapalyzer-Prefix.pch"; sourceTree = "<group>"; };
+		4D86E092198197F6009A7C9D /* MEGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEGAppDelegate.h; sourceTree = "<group>"; };
+		4D86E093198197F6009A7C9D /* MEGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEGAppDelegate.m; sourceTree = "<group>"; };
+		4D86E095198197F6009A7C9D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4D86E09B198197F6009A7C9D /* SnapalyzerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapalyzerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D86E09C198197F6009A7C9D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4D86E0A4198197F6009A7C9D /* SnapalyzerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnapalyzerTests-Info.plist"; sourceTree = "<group>"; };
+		4D86E0A6198197F6009A7C9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D86E0A8198197F6009A7C9D /* SnapalyzerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapalyzerTests.m; sourceTree = "<group>"; };
+		4D86E0B219819807009A7C9D /* MEGGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEGGalleryViewController.h; sourceTree = "<group>"; };
+		4D86E0B319819807009A7C9D /* MEGGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEGGalleryViewController.m; sourceTree = "<group>"; };
+		4D86E0B419819807009A7C9D /* MEGGalleryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MEGGalleryViewController.xib; sourceTree = "<group>"; };
+		4D86E0B719819822009A7C9D /* ghost_clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost_clear.png; sourceTree = "<group>"; };
+		4D86E0B9198198BF009A7C9D /* MEGMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEGMainViewController.h; sourceTree = "<group>"; };
+		4D86E0BA198198BF009A7C9D /* MEGMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEGMainViewController.m; sourceTree = "<group>"; };
+		4D86E0BB198198BF009A7C9D /* MEGMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MEGMainViewController.xib; sourceTree = "<group>"; };
+		4DDA267F19E4B67E00557CAB /* nicearrowNONHIGHLIGHTED.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = nicearrowNONHIGHLIGHTED.gif; sourceTree = "<group>"; };
+		4DDA268119E4B68500557CAB /* nicearrowHIGHLIGHTED.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = nicearrowHIGHLIGHTED.gif; sourceTree = "<group>"; };
+		4DDA268E19E9CCB500557CAB /* MEGImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEGImageViewController.h; sourceTree = "<group>"; };
+		4DDA268F19E9CCB500557CAB /* MEGImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEGImageViewController.m; sourceTree = "<group>"; };
+		4DDA269019E9CCB500557CAB /* MEGImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MEGImageViewController.xib; sourceTree = "<group>"; };
+		4DDA269319EA575000557CAB /* SnapalyzerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapalyzerTableViewCell.h; sourceTree = "<group>"; };
+		4DDA269419EA575100557CAB /* SnapalyzerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapalyzerTableViewCell.m; sourceTree = "<group>"; };
+		4DDA269619EB56C600557CAB /* floppy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floppy.png; sourceTree = "<group>"; };
+		4DDA269819EB56CE00557CAB /* floppyHIGHLIGHTED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floppyHIGHLIGHTED.png; sourceTree = "<group>"; };
+		4DDA269A19EB56FD00557CAB /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
+		4DDA269C19EB570300557CAB /* xHIGHLIGHTED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xHIGHLIGHTED.png; sourceTree = "<group>"; };
+		4DDA26A019ECB8FA00557CAB /* buttonBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonBackground.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D86E07D198197F6009A7C9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D86E086198197F6009A7C9D /* CoreGraphics.framework in Frameworks */,
+				4D86E088198197F6009A7C9D /* UIKit.framework in Frameworks */,
+				4D86E084198197F6009A7C9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D86E098198197F6009A7C9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D86E09D198197F6009A7C9D /* XCTest.framework in Frameworks */,
+				4D86E09F198197F6009A7C9D /* UIKit.framework in Frameworks */,
+				4D86E09E198197F6009A7C9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D86E077198197F6009A7C9D = {
+			isa = PBXGroup;
+			children = (
+				4DDA269319EA575000557CAB /* SnapalyzerTableViewCell.h */,
+				4DDA269419EA575100557CAB /* SnapalyzerTableViewCell.m */,
+				4DDA268E19E9CCB500557CAB /* MEGImageViewController.h */,
+				4DDA268F19E9CCB500557CAB /* MEGImageViewController.m */,
+				4DDA269019E9CCB500557CAB /* MEGImageViewController.xib */,
+				4D86E0B219819807009A7C9D /* MEGGalleryViewController.h */,
+				4D86E0B319819807009A7C9D /* MEGGalleryViewController.m */,
+				4D86E0B419819807009A7C9D /* MEGGalleryViewController.xib */,
+				4D86E0B9198198BF009A7C9D /* MEGMainViewController.h */,
+				4D86E0BA198198BF009A7C9D /* MEGMainViewController.m */,
+				4D86E0BB198198BF009A7C9D /* MEGMainViewController.xib */,
+				4D86E089198197F6009A7C9D /* Snapalyzer */,
+				4D86E0A2198197F6009A7C9D /* SnapalyzerTests */,
+				4D86E082198197F6009A7C9D /* Frameworks */,
+				4D86E081198197F6009A7C9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D86E081198197F6009A7C9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D86E080198197F6009A7C9D /* Snapalyzer.app */,
+				4D86E09B198197F6009A7C9D /* SnapalyzerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D86E082198197F6009A7C9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D86E083198197F6009A7C9D /* Foundation.framework */,
+				4D86E085198197F6009A7C9D /* CoreGraphics.framework */,
+				4D86E087198197F6009A7C9D /* UIKit.framework */,
+				4D86E09C198197F6009A7C9D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D86E089198197F6009A7C9D /* Snapalyzer */ = {
+			isa = PBXGroup;
+			children = (
+				4DDA269C19EB570300557CAB /* xHIGHLIGHTED.png */,
+				4DDA269A19EB56FD00557CAB /* x.png */,
+				4DDA269819EB56CE00557CAB /* floppyHIGHLIGHTED.png */,
+				4DDA269619EB56C600557CAB /* floppy.png */,
+				4D86E092198197F6009A7C9D /* MEGAppDelegate.h */,
+				4D86E093198197F6009A7C9D /* MEGAppDelegate.m */,
+				4D86E095198197F6009A7C9D /* Images.xcassets */,
+				4D2FF2261B659EF0004E07F7 /* LaunchScreen.xib */,
+				4D86E08A198197F6009A7C9D /* Supporting Files */,
+			);
+			path = Snapalyzer;
+			sourceTree = "<group>";
+		};
+		4D86E08A198197F6009A7C9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D2FF2241B659CE2004E07F7 /* nicearrowBACK.gif */,
+				4DDA26A019ECB8FA00557CAB /* buttonBackground.png */,
+				4DDA268119E4B68500557CAB /* nicearrowHIGHLIGHTED.gif */,
+				4DDA267F19E4B67E00557CAB /* nicearrowNONHIGHLIGHTED.gif */,
+				4D86E0B719819822009A7C9D /* ghost_clear.png */,
+				4D86E08B198197F6009A7C9D /* Snapalyzer-Info.plist */,
+				4D86E08C198197F6009A7C9D /* InfoPlist.strings */,
+				4D86E08F198197F6009A7C9D /* main.m */,
+				4D86E091198197F6009A7C9D /* Snapalyzer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D86E0A2198197F6009A7C9D /* SnapalyzerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D86E0A8198197F6009A7C9D /* SnapalyzerTests.m */,
+				4D86E0A3198197F6009A7C9D /* Supporting Files */,
+			);
+			path = SnapalyzerTests;
+			sourceTree = "<group>";
+		};
+		4D86E0A3198197F6009A7C9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D86E0A4198197F6009A7C9D /* SnapalyzerTests-Info.plist */,
+				4D86E0A5198197F6009A7C9D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D86E07F198197F6009A7C9D /* Snapalyzer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D86E0AC198197F6009A7C9D /* Build configuration list for PBXNativeTarget "Snapalyzer" */;
+			buildPhases = (
+				4D86E07C198197F6009A7C9D /* Sources */,
+				4D86E07D198197F6009A7C9D /* Frameworks */,
+				4D86E07E198197F6009A7C9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snapalyzer;
+			productName = Snapalyzer;
+			productReference = 4D86E080198197F6009A7C9D /* Snapalyzer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D86E09A198197F6009A7C9D /* SnapalyzerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D86E0AF198197F6009A7C9D /* Build configuration list for PBXNativeTarget "SnapalyzerTests" */;
+			buildPhases = (
+				4D86E097198197F6009A7C9D /* Sources */,
+				4D86E098198197F6009A7C9D /* Frameworks */,
+				4D86E099198197F6009A7C9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D86E0A1198197F6009A7C9D /* PBXTargetDependency */,
+			);
+			name = SnapalyzerTests;
+			productName = SnapalyzerTests;
+			productReference = 4D86E09B198197F6009A7C9D /* SnapalyzerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D86E078198197F6009A7C9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MEG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Megatronix;
+				TargetAttributes = {
+					4D86E07F198197F6009A7C9D = {
+						DevelopmentTeam = QMBN32V4F9;
+					};
+					4D86E09A198197F6009A7C9D = {
+						TestTargetID = 4D86E07F198197F6009A7C9D;
+					};
+				};
+			};
+			buildConfigurationList = 4D86E07B198197F6009A7C9D /* Build configuration list for PBXProject "Snapalyzer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4D86E077198197F6009A7C9D;
+			productRefGroup = 4D86E081198197F6009A7C9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D86E07F198197F6009A7C9D /* Snapalyzer */,
+				4D86E09A198197F6009A7C9D /* SnapalyzerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D86E07E198197F6009A7C9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D86E0B619819807009A7C9D /* MEGGalleryViewController.xib in Resources */,
+				4DDA268019E4B67E00557CAB /* nicearrowNONHIGHLIGHTED.gif in Resources */,
+				4D86E0B819819822009A7C9D /* ghost_clear.png in Resources */,
+				4DDA269219E9CCB500557CAB /* MEGImageViewController.xib in Resources */,
+				4DDA26A119ECB8FA00557CAB /* buttonBackground.png in Resources */,
+				4DDA269719EB56C600557CAB /* floppy.png in Resources */,
+				4D86E08E198197F6009A7C9D /* InfoPlist.strings in Resources */,
+				4DDA269D19EB570300557CAB /* xHIGHLIGHTED.png in Resources */,
+				4D86E096198197F6009A7C9D /* Images.xcassets in Resources */,
+				4DDA269B19EB56FD00557CAB /* x.png in Resources */,
+				4D2FF2271B659EF0004E07F7 /* LaunchScreen.xib in Resources */,
+				4D2FF2251B659CE2004E07F7 /* nicearrowBACK.gif in Resources */,
+				4DDA268219E4B68500557CAB /* nicearrowHIGHLIGHTED.gif in Resources */,
+				4DDA269919EB56CE00557CAB /* floppyHIGHLIGHTED.png in Resources */,
+				4D86E0BD198198BF009A7C9D /* MEGMainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D86E099198197F6009A7C9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D86E0A7198197F6009A7C9D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D86E07C198197F6009A7C9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D86E094198197F6009A7C9D /* MEGAppDelegate.m in Sources */,
+				4D86E0B519819807009A7C9D /* MEGGalleryViewController.m in Sources */,
+				4DDA269519EA575100557CAB /* SnapalyzerTableViewCell.m in Sources */,
+				4D86E090198197F6009A7C9D /* main.m in Sources */,
+				4D86E0BC198198BF009A7C9D /* MEGMainViewController.m in Sources */,
+				4DDA269119E9CCB500557CAB /* MEGImageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D86E097198197F6009A7C9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D86E0A9198197F6009A7C9D /* SnapalyzerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D86E0A1198197F6009A7C9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D86E07F198197F6009A7C9D /* Snapalyzer */;
+			targetProxy = 4D86E0A0198197F6009A7C9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D86E08C198197F6009A7C9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D86E08D198197F6009A7C9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4D86E0A5198197F6009A7C9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D86E0A6198197F6009A7C9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D86E0AA198197F6009A7C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D86E0AB198197F6009A7C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D86E0AD198197F6009A7C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: Kamen Tsvetkov (P4963EZFUA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kamen Tsvetkov (P4963EZFUA)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snapalyzer/Snapalyzer-Prefix.pch";
+				INFOPLIST_FILE = "Snapalyzer/Snapalyzer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos7.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4D86E0AE198197F6009A7C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kamen Tsvetkov (P4963EZFUA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kamen Tsvetkov (P4963EZFUA)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snapalyzer/Snapalyzer-Prefix.pch";
+				INFOPLIST_FILE = "Snapalyzer/Snapalyzer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos7.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4D86E0B0198197F6009A7C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Snapalyzer.app/Snapalyzer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snapalyzer/Snapalyzer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SnapalyzerTests/SnapalyzerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4D86E0B1198197F6009A7C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Snapalyzer.app/Snapalyzer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snapalyzer/Snapalyzer-Prefix.pch";
+				INFOPLIST_FILE = "SnapalyzerTests/SnapalyzerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D86E07B198197F6009A7C9D /* Build configuration list for PBXProject "Snapalyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D86E0AA198197F6009A7C9D /* Debug */,
+				4D86E0AB198197F6009A7C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D86E0AC198197F6009A7C9D /* Build configuration list for PBXNativeTarget "Snapalyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D86E0AD198197F6009A7C9D /* Debug */,
+				4D86E0AE198197F6009A7C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D86E0AF198197F6009A7C9D /* Build configuration list for PBXNativeTarget "SnapalyzerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D86E0B0198197F6009A7C9D /* Debug */,
+				4D86E0B1198197F6009A7C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D86E078198197F6009A7C9D /* Project object */;
+}
